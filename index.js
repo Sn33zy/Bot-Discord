@@ -6,7 +6,7 @@ const client = new Client({
 });
 
 client.once('ready', () => {
-  console.log(`Bot connecté : ${client.user.tag}`);
+  console.log(`Bot en ligne ! : ${client.user.tag}`);
 });
 
 client.login(process.env.DISCORD_TOKEN);
